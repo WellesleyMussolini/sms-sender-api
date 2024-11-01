@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/send-sms",
+      "methods": ["POST"],
+      "dest": "/api/sms.js"
+    }
+  ]
+}
